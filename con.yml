@@ -1,0 +1,61 @@
+# Site
+# repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Feng(Stephen)Wu
+title: Research assistant at Purdue University
+email: wu1239@purdue[dot]edu
+website: https://calmair521.github.io/
+# Social links
+
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Feng(Stephen) Wu. I'm doing my master degree in Electrical and computer engineering, and a research assistant studying at Purdue University.
+  Before came Purdue in 2017, I have been working as a full-time control engineer at Delta controls for 6 years, which I deal with different HAVC control and
+  energy management systems. 
+  
+Projects Section
+projects_title: Projects
+
+Experience Section
+experience_title: Experience
+
+Education Section
+educaton_title: Education
+
+- layout: left
+  name: Purdue University
+  dates: 2017-Present
+  qualification: Master in Computer Engineering
+  MS Thesis: A cybersecurity framework for wireless controlled system in smart buildings
+  quote: 
+  description: | # this will include new lines to allow paragraphs
+  Research Assistant and Ray W.Herrick Laboratories student                                           
+  Research area: The applications of Internet of Things and wireless devices in the smart buildings; Development of the data-driven model (Deep learning neural network) for the fault detection and diagnosis of HVAC and other building systems; Development of the integrated cyber and physical model for wireless controlled building system. 
+  Publications:  Feng Wu and Ming Qu, "A Cyber-Security Framework for Wireless-Based Controlled Smart Buildings I: Two-Position Control", in 2020 ASHRAE Winter Conference, Orlando, U.S..
+
+
+More Section
+more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Traveling
+   - guitar
+   - basketball
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
